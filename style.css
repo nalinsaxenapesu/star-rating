@@ -1,0 +1,11 @@
+.stars{
+display: flex; 
+  opacity: 50%;
+}
+
+.stars:hover{
+  opacity: 100%;
+}
+.stars a:hover ~a{
+  opacity: 50%;
+}
